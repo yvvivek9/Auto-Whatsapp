@@ -1,0 +1,124 @@
+﻿import pywhatkit
+
+temp = ["+919945230667", "+918073032815", "+917204259486", "+917892005524", "+919741119169", "+917349712105", "+919353656957", "+919513786313" ]
+
+caption = """
+Brackets for tomorrow's match.
+Please check out the timings for your respective team."""
+
+for i in temp:
+    try:    
+        pywhatkit.sendwhats_image(i, "Photo.png", caption, tab_close=True)
+        print(f"Sent to {i}")
+    except:
+        print(f"Error in sending to: {i}")
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+
+
+
